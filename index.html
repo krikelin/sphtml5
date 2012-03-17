@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		@import url("style.css");
+		</style>
+		<title>HTML5 Spotify player</title>
+	</head>
+	<body>
+		<header>
+			<input type="search" name="search" /><button name="submit" onclick="search()" />
+		</header>
+		<nav id="leftmenu">
+			<ul>
+				<li>Playlists
+				<ul id="playlists">
+					<!-- Playlists section -->
+				</ul>
+				</li>
+			</ul>
+		</nav>
+		<div id="container">
+		</div>
+		<footer>	
+			<button type="prev" onclick="prev()" />
+			<button type="play" onclick="play()" />
+			<button type="next" onclick="next()" />
+		</footer>
+	</body>
+</html>

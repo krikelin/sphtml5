@@ -1,0 +1,29 @@
+footer {
+	bottom: 0px;
+	position:absolute;
+	background-color:#aaaaaa;
+	height: 80px;
+	width: 100%;
+}
+header {
+	background-color:#cccccc;
+}
+nav {
+	position:absolute;
+	width:220px;
+	height:620px;
+	background-color:#111111;
+}
+.container {
+	left:320px;
+	width: 320px;
+	position:absolute;
+}
+body {		
+	color:#FFFFFF;
+	text-shadow: 0px 1px 1px #000000;
+	font-family: "Tahoma";
+	font-size: 11px;
+	margin: 0px;
+	background-color:#333333;
+}
